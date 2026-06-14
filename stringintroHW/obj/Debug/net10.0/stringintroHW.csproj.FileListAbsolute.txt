@@ -1,0 +1,14 @@
+F:\ITSTEP\C#\ITSTEP\stringintroHW\bin\Debug\net10.0\stringintroHW.exe
+F:\ITSTEP\C#\ITSTEP\stringintroHW\bin\Debug\net10.0\stringintroHW.deps.json
+F:\ITSTEP\C#\ITSTEP\stringintroHW\bin\Debug\net10.0\stringintroHW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\stringintroHW\bin\Debug\net10.0\stringintroHW.dll
+F:\ITSTEP\C#\ITSTEP\stringintroHW\bin\Debug\net10.0\stringintroHW.pdb
+F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\stringintroHW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\stringintroHW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\stringintroHW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\stringintroHW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\stringintroHW.dll
+F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\refint\stringintroHW.dll
+F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\stringintroHW.pdb
+F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\stringintroHW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\ref\stringintroHW.dll
