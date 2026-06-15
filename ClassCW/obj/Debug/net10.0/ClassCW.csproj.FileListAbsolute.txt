@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\ClassCW\bin\Debug\net10.0\ClassCW.exe
+F:\ITSTEP\C#\ITSTEP\ClassCW\bin\Debug\net10.0\ClassCW.deps.json
+F:\ITSTEP\C#\ITSTEP\ClassCW\bin\Debug\net10.0\ClassCW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\ClassCW\bin\Debug\net10.0\ClassCW.dll
+F:\ITSTEP\C#\ITSTEP\ClassCW\bin\Debug\net10.0\ClassCW.pdb
+F:\ITSTEP\C#\ITSTEP\ClassCW\obj\Debug\net10.0\ClassCW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\ClassCW\obj\Debug\net10.0\ClassCW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\ClassCW\obj\Debug\net10.0\ClassCW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\ClassCW\obj\Debug\net10.0\ClassCW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\ClassCW\obj\Debug\net10.0\ClassCW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\ClassCW\obj\Debug\net10.0\ClassCW.dll
+F:\ITSTEP\C#\ITSTEP\ClassCW\obj\Debug\net10.0\refint\ClassCW.dll
+F:\ITSTEP\C#\ITSTEP\ClassCW\obj\Debug\net10.0\ClassCW.pdb
+F:\ITSTEP\C#\ITSTEP\ClassCW\obj\Debug\net10.0\ClassCW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\ClassCW\obj\Debug\net10.0\ref\ClassCW.dll
