@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\bin\Debug\net10.0\ExceptionsHW2.exe
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\bin\Debug\net10.0\ExceptionsHW2.deps.json
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\bin\Debug\net10.0\ExceptionsHW2.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\bin\Debug\net10.0\ExceptionsHW2.dll
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\bin\Debug\net10.0\ExceptionsHW2.pdb
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\obj\Debug\net10.0\ExceptionsHW2.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\obj\Debug\net10.0\ExceptionsHW2.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\obj\Debug\net10.0\ExceptionsHW2.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\obj\Debug\net10.0\ExceptionsHW2.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\obj\Debug\net10.0\ExceptionsHW2.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\obj\Debug\net10.0\ExceptionsHW2.dll
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\obj\Debug\net10.0\refint\ExceptionsHW2.dll
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\obj\Debug\net10.0\ExceptionsHW2.pdb
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\obj\Debug\net10.0\ExceptionsHW2.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW2\obj\Debug\net10.0\ref\ExceptionsHW2.dll

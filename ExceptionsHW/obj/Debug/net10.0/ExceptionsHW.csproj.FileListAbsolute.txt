@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\bin\Debug\net10.0\ExceptionsHW.exe
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\bin\Debug\net10.0\ExceptionsHW.deps.json
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\bin\Debug\net10.0\ExceptionsHW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\bin\Debug\net10.0\ExceptionsHW.dll
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\bin\Debug\net10.0\ExceptionsHW.pdb
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\obj\Debug\net10.0\ExceptionsHW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\obj\Debug\net10.0\ExceptionsHW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\obj\Debug\net10.0\ExceptionsHW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\obj\Debug\net10.0\ExceptionsHW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\obj\Debug\net10.0\ExceptionsHW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\obj\Debug\net10.0\ExceptionsHW.dll
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\obj\Debug\net10.0\refint\ExceptionsHW.dll
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\obj\Debug\net10.0\ExceptionsHW.pdb
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\obj\Debug\net10.0\ExceptionsHW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\ExceptionsHW\obj\Debug\net10.0\ref\ExceptionsHW.dll

@@ -12,3 +12,4 @@ F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\refint\stringintroHW.dll
 F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\stringintroHW.pdb
 F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\stringintroHW.genruntimeconfig.cache
 F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\ref\stringintroHW.dll
+F:\ITSTEP\C#\ITSTEP\stringintroHW\obj\Debug\net10.0\stringintroHW.sourcelink.json
