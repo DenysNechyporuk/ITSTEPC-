@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\DelegateCW\bin\Debug\net10.0\DelegateCW.exe
+F:\ITSTEP\C#\ITSTEP\DelegateCW\bin\Debug\net10.0\DelegateCW.deps.json
+F:\ITSTEP\C#\ITSTEP\DelegateCW\bin\Debug\net10.0\DelegateCW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\DelegateCW\bin\Debug\net10.0\DelegateCW.dll
+F:\ITSTEP\C#\ITSTEP\DelegateCW\bin\Debug\net10.0\DelegateCW.pdb
+F:\ITSTEP\C#\ITSTEP\DelegateCW\obj\Debug\net10.0\DelegateCW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\DelegateCW\obj\Debug\net10.0\DelegateCW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\DelegateCW\obj\Debug\net10.0\DelegateCW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\DelegateCW\obj\Debug\net10.0\DelegateCW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\DelegateCW\obj\Debug\net10.0\DelegateCW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\DelegateCW\obj\Debug\net10.0\DelegateCW.dll
+F:\ITSTEP\C#\ITSTEP\DelegateCW\obj\Debug\net10.0\refint\DelegateCW.dll
+F:\ITSTEP\C#\ITSTEP\DelegateCW\obj\Debug\net10.0\DelegateCW.pdb
+F:\ITSTEP\C#\ITSTEP\DelegateCW\obj\Debug\net10.0\DelegateCW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\DelegateCW\obj\Debug\net10.0\ref\DelegateCW.dll

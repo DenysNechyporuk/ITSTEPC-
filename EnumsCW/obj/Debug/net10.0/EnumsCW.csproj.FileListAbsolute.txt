@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\EnumsCW\bin\Debug\net10.0\EnumsCW.exe
+F:\ITSTEP\C#\ITSTEP\EnumsCW\bin\Debug\net10.0\EnumsCW.deps.json
+F:\ITSTEP\C#\ITSTEP\EnumsCW\bin\Debug\net10.0\EnumsCW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\EnumsCW\bin\Debug\net10.0\EnumsCW.dll
+F:\ITSTEP\C#\ITSTEP\EnumsCW\bin\Debug\net10.0\EnumsCW.pdb
+F:\ITSTEP\C#\ITSTEP\EnumsCW\obj\Debug\net10.0\EnumsCW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\EnumsCW\obj\Debug\net10.0\EnumsCW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\EnumsCW\obj\Debug\net10.0\EnumsCW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\EnumsCW\obj\Debug\net10.0\EnumsCW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\EnumsCW\obj\Debug\net10.0\EnumsCW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\EnumsCW\obj\Debug\net10.0\EnumsCW.dll
+F:\ITSTEP\C#\ITSTEP\EnumsCW\obj\Debug\net10.0\refint\EnumsCW.dll
+F:\ITSTEP\C#\ITSTEP\EnumsCW\obj\Debug\net10.0\EnumsCW.pdb
+F:\ITSTEP\C#\ITSTEP\EnumsCW\obj\Debug\net10.0\EnumsCW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\EnumsCW\obj\Debug\net10.0\ref\EnumsCW.dll
