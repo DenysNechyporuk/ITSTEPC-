@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\bin\Debug\net10.0\InterfacesHW.exe
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\bin\Debug\net10.0\InterfacesHW.deps.json
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\bin\Debug\net10.0\InterfacesHW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\bin\Debug\net10.0\InterfacesHW.dll
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\bin\Debug\net10.0\InterfacesHW.pdb
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\obj\Debug\net10.0\InterfacesHW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\obj\Debug\net10.0\InterfacesHW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\obj\Debug\net10.0\InterfacesHW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\obj\Debug\net10.0\InterfacesHW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\obj\Debug\net10.0\InterfacesHW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\obj\Debug\net10.0\InterfacesHW.dll
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\obj\Debug\net10.0\refint\InterfacesHW.dll
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\obj\Debug\net10.0\InterfacesHW.pdb
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\obj\Debug\net10.0\InterfacesHW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\InterfacesHW\obj\Debug\net10.0\ref\InterfacesHW.dll
