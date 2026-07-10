@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnumsCW")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d22954a8d50004b871f3eccd50330b41a399239d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50e247beb2f27265bd1a371830ecfc565951799a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnumsCW")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnumsCW")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\bin\Debug\net10.0\DataStreamCW.exe
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\bin\Debug\net10.0\DataStreamCW.deps.json
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\bin\Debug\net10.0\DataStreamCW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\bin\Debug\net10.0\DataStreamCW.dll
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\bin\Debug\net10.0\DataStreamCW.pdb
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\obj\Debug\net10.0\DataStreamCW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\obj\Debug\net10.0\DataStreamCW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\obj\Debug\net10.0\DataStreamCW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\obj\Debug\net10.0\DataStreamCW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\obj\Debug\net10.0\DataStreamCW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\obj\Debug\net10.0\DataStreamCW.dll
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\obj\Debug\net10.0\refint\DataStreamCW.dll
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\obj\Debug\net10.0\DataStreamCW.pdb
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\obj\Debug\net10.0\DataStreamCW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\DataStreamCW\obj\Debug\net10.0\ref\DataStreamCW.dll

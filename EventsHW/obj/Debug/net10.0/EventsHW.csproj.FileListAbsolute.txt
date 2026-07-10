@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\EventsHW\bin\Debug\net10.0\EventsHW.exe
+F:\ITSTEP\C#\ITSTEP\EventsHW\bin\Debug\net10.0\EventsHW.deps.json
+F:\ITSTEP\C#\ITSTEP\EventsHW\bin\Debug\net10.0\EventsHW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\EventsHW\bin\Debug\net10.0\EventsHW.dll
+F:\ITSTEP\C#\ITSTEP\EventsHW\bin\Debug\net10.0\EventsHW.pdb
+F:\ITSTEP\C#\ITSTEP\EventsHW\obj\Debug\net10.0\EventsHW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\EventsHW\obj\Debug\net10.0\EventsHW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\EventsHW\obj\Debug\net10.0\EventsHW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\EventsHW\obj\Debug\net10.0\EventsHW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\EventsHW\obj\Debug\net10.0\EventsHW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\EventsHW\obj\Debug\net10.0\EventsHW.dll
+F:\ITSTEP\C#\ITSTEP\EventsHW\obj\Debug\net10.0\refint\EventsHW.dll
+F:\ITSTEP\C#\ITSTEP\EventsHW\obj\Debug\net10.0\EventsHW.pdb
+F:\ITSTEP\C#\ITSTEP\EventsHW\obj\Debug\net10.0\EventsHW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\EventsHW\obj\Debug\net10.0\ref\EventsHW.dll

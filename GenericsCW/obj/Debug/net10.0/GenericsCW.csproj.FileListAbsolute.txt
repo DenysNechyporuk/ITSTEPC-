@@ -1,0 +1,8 @@
+F:\ITSTEP\C#\ITSTEP\GenericsCW\obj\Debug\net10.0\GenericsCW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\GenericsCW\obj\Debug\net10.0\GenericsCW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\GenericsCW\obj\Debug\net10.0\GenericsCW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\GenericsCW\obj\Debug\net10.0\GenericsCW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\GenericsCW\obj\Debug\net10.0\GenericsCW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\GenericsCW\obj\Debug\net10.0\GenericsCW.dll
+F:\ITSTEP\C#\ITSTEP\GenericsCW\obj\Debug\net10.0\refint\GenericsCW.dll
+F:\ITSTEP\C#\ITSTEP\GenericsCW\obj\Debug\net10.0\GenericsCW.pdb

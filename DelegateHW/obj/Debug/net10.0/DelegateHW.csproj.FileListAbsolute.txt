@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\DelegateHW\bin\Debug\net10.0\DelegateHW.exe
+F:\ITSTEP\C#\ITSTEP\DelegateHW\bin\Debug\net10.0\DelegateHW.deps.json
+F:\ITSTEP\C#\ITSTEP\DelegateHW\bin\Debug\net10.0\DelegateHW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\DelegateHW\bin\Debug\net10.0\DelegateHW.dll
+F:\ITSTEP\C#\ITSTEP\DelegateHW\bin\Debug\net10.0\DelegateHW.pdb
+F:\ITSTEP\C#\ITSTEP\DelegateHW\obj\Debug\net10.0\DelegateHW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\DelegateHW\obj\Debug\net10.0\DelegateHW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\DelegateHW\obj\Debug\net10.0\DelegateHW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\DelegateHW\obj\Debug\net10.0\DelegateHW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\DelegateHW\obj\Debug\net10.0\DelegateHW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\DelegateHW\obj\Debug\net10.0\DelegateHW.dll
+F:\ITSTEP\C#\ITSTEP\DelegateHW\obj\Debug\net10.0\refint\DelegateHW.dll
+F:\ITSTEP\C#\ITSTEP\DelegateHW\obj\Debug\net10.0\DelegateHW.pdb
+F:\ITSTEP\C#\ITSTEP\DelegateHW\obj\Debug\net10.0\DelegateHW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\DelegateHW\obj\Debug\net10.0\ref\DelegateHW.dll

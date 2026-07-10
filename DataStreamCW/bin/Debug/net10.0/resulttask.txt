@@ -1,0 +1,6 @@
+Lines: 13
+Characters: 4565
+Words: 670
+Digits: 0
+Vowels: 1628
+Consonants: 2099

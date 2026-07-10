@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\bin\Debug\net10.0\ListsandDictionaryCW.exe
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\bin\Debug\net10.0\ListsandDictionaryCW.deps.json
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\bin\Debug\net10.0\ListsandDictionaryCW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\bin\Debug\net10.0\ListsandDictionaryCW.dll
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\bin\Debug\net10.0\ListsandDictionaryCW.pdb
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\obj\Debug\net10.0\ListsandDictionaryCW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\obj\Debug\net10.0\ListsandDictionaryCW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\obj\Debug\net10.0\ListsandDictionaryCW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\obj\Debug\net10.0\ListsandDictionaryCW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\obj\Debug\net10.0\ListsandDictionaryCW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\obj\Debug\net10.0\ListsandDictionaryCW.dll
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\obj\Debug\net10.0\refint\ListsandDictionaryCW.dll
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\obj\Debug\net10.0\ListsandDictionaryCW.pdb
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\obj\Debug\net10.0\ListsandDictionaryCW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\ListsandDictionaryCW\obj\Debug\net10.0\ref\ListsandDictionaryCW.dll
