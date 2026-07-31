@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\bin\Debug\net10.0\FileDirectoryCW.exe
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\bin\Debug\net10.0\FileDirectoryCW.deps.json
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\bin\Debug\net10.0\FileDirectoryCW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\bin\Debug\net10.0\FileDirectoryCW.dll
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\bin\Debug\net10.0\FileDirectoryCW.pdb
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\obj\Debug\net10.0\FileDirectoryCW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\obj\Debug\net10.0\FileDirectoryCW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\obj\Debug\net10.0\FileDirectoryCW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\obj\Debug\net10.0\FileDirectoryCW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\obj\Debug\net10.0\FileDirectoryCW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\obj\Debug\net10.0\FileDirectoryCW.dll
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\obj\Debug\net10.0\refint\FileDirectoryCW.dll
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\obj\Debug\net10.0\FileDirectoryCW.pdb
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\obj\Debug\net10.0\FileDirectoryCW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\FileDirectoryCW\obj\Debug\net10.0\ref\FileDirectoryCW.dll

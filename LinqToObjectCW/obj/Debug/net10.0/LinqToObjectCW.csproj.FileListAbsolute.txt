@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\bin\Debug\net10.0\LinqToObjectCW.exe
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\bin\Debug\net10.0\LinqToObjectCW.deps.json
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\bin\Debug\net10.0\LinqToObjectCW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\bin\Debug\net10.0\LinqToObjectCW.dll
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\bin\Debug\net10.0\LinqToObjectCW.pdb
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\obj\Debug\net10.0\LinqToObjectCW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\obj\Debug\net10.0\LinqToObjectCW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\obj\Debug\net10.0\LinqToObjectCW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\obj\Debug\net10.0\LinqToObjectCW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\obj\Debug\net10.0\LinqToObjectCW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\obj\Debug\net10.0\LinqToObjectCW.dll
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\obj\Debug\net10.0\refint\LinqToObjectCW.dll
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\obj\Debug\net10.0\LinqToObjectCW.pdb
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\obj\Debug\net10.0\LinqToObjectCW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\LinqToObjectCW\obj\Debug\net10.0\ref\LinqToObjectCW.dll

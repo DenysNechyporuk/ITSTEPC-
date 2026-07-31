@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\RegexCW\bin\Debug\net10.0\RegexCW.exe
+F:\ITSTEP\C#\ITSTEP\RegexCW\bin\Debug\net10.0\RegexCW.deps.json
+F:\ITSTEP\C#\ITSTEP\RegexCW\bin\Debug\net10.0\RegexCW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\RegexCW\bin\Debug\net10.0\RegexCW.dll
+F:\ITSTEP\C#\ITSTEP\RegexCW\bin\Debug\net10.0\RegexCW.pdb
+F:\ITSTEP\C#\ITSTEP\RegexCW\obj\Debug\net10.0\RegexCW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\RegexCW\obj\Debug\net10.0\RegexCW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\RegexCW\obj\Debug\net10.0\RegexCW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\RegexCW\obj\Debug\net10.0\RegexCW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\RegexCW\obj\Debug\net10.0\RegexCW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\RegexCW\obj\Debug\net10.0\RegexCW.dll
+F:\ITSTEP\C#\ITSTEP\RegexCW\obj\Debug\net10.0\refint\RegexCW.dll
+F:\ITSTEP\C#\ITSTEP\RegexCW\obj\Debug\net10.0\RegexCW.pdb
+F:\ITSTEP\C#\ITSTEP\RegexCW\obj\Debug\net10.0\RegexCW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\RegexCW\obj\Debug\net10.0\ref\RegexCW.dll
