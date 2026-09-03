@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\bin\Debug\net10.0\DesignPatternsHW.exe
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\bin\Debug\net10.0\DesignPatternsHW.deps.json
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\bin\Debug\net10.0\DesignPatternsHW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\bin\Debug\net10.0\DesignPatternsHW.dll
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\bin\Debug\net10.0\DesignPatternsHW.pdb
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\obj\Debug\net10.0\DesignPatternsHW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\obj\Debug\net10.0\DesignPatternsHW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\obj\Debug\net10.0\DesignPatternsHW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\obj\Debug\net10.0\DesignPatternsHW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\obj\Debug\net10.0\DesignPatternsHW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\obj\Debug\net10.0\DesignPatternsHW.dll
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\obj\Debug\net10.0\refint\DesignPatternsHW.dll
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\obj\Debug\net10.0\DesignPatternsHW.pdb
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\obj\Debug\net10.0\DesignPatternsHW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\DesignPatternsHW\obj\Debug\net10.0\ref\DesignPatternsHW.dll
