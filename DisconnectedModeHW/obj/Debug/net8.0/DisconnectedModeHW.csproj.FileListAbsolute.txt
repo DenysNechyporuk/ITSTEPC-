@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\bin\Debug\net8.0\DisconnectedModeHW.exe
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\bin\Debug\net8.0\DisconnectedModeHW.deps.json
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\bin\Debug\net8.0\DisconnectedModeHW.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\bin\Debug\net8.0\DisconnectedModeHW.dll
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\bin\Debug\net8.0\DisconnectedModeHW.pdb
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\obj\Debug\net8.0\DisconnectedModeHW.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\obj\Debug\net8.0\DisconnectedModeHW.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\obj\Debug\net8.0\DisconnectedModeHW.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\obj\Debug\net8.0\DisconnectedModeHW.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\obj\Debug\net8.0\DisconnectedModeHW.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\obj\Debug\net8.0\DisconnectedModeHW.dll
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\obj\Debug\net8.0\refint\DisconnectedModeHW.dll
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\obj\Debug\net8.0\DisconnectedModeHW.pdb
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\obj\Debug\net8.0\DisconnectedModeHW.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\DisconnectedModeHW\obj\Debug\net8.0\ref\DisconnectedModeHW.dll

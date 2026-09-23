@@ -60,7 +60,7 @@ namespace CrudHW
                     {
                         while (reader.Read())
                         {
-                            Console.WriteLine($"ID: {reader["Id"]}, Ім'я: {reader["FirstName"]}, Прізвище: {reader["LastName"]}");
+                            Console.WriteLine($"ID: {reader["Id"]}, {reader["FirstName"]} {reader["LastName"]}");
                         }
                     }
                 }
@@ -141,8 +141,8 @@ namespace CrudHW
                 string query = "UPDATE Visitors SET IsDebtor = 0";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    int rows = command.ExecuteNonQuery();
-                    Console.WriteLine($"Очищено заборгованості для {rows} користувачів.");
+                    command.ExecuteNonQuery();
+                    Console.WriteLine("Заборгованості очищено.");
                 }
             }
         }

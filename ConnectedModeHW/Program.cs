@@ -15,7 +15,7 @@ namespace ConnectedModeHW
                 Console.WriteLine("\n--- МЕНЮ ---");
                 Console.WriteLine("1. Додати нову продажу");
                 Console.WriteLine("2. Відобразити всі продажі за період");
-                Console.WriteLine("3. Остання покупка покупця (Ім'я, Прізвище)");
+                Console.WriteLine("3. Остання покупка покупця");
                 Console.WriteLine("4. Видалити продавця або покупця по ID");
                 Console.WriteLine("5. Продавець з найбільшою сумою продажів");
                 Console.WriteLine("0. Вихід");
@@ -26,32 +26,22 @@ namespace ConnectedModeHW
 
                 switch (choice)
                 {
-                    case "1":
-                        AddSale();
-                        break;
-                    case "2":
-                        ShowSalesByPeriod();
-                        break;
-                    case "3":
-                        ShowLastPurchase();
-                        break;
-                    case "4":
-                        DeletePerson();
-                        break;
-                    case "5":
-                        ShowTopSeller();
-                        break;
+                    case "1": AddSale(); break;
+                    case "2": ShowSalesByPeriod(); break;
+                    case "3": ShowLastPurchase(); break;
+                    case "4": DeletePerson(); break;
+                    case "5": ShowTopSeller(); break;
                 }
             }
         }
 
         static void AddSale()
         {
-            Console.Write("Введіть ID покупця: ");
+            Console.Write("ID покупця: ");
             int buyerId = int.Parse(Console.ReadLine());
-            Console.Write("Введіть ID продавця: ");
+            Console.Write("ID продавця: ");
             int sellerId = int.Parse(Console.ReadLine());
-            Console.Write("Введіть суму: ");
+            Console.Write("Сума: ");
             decimal amount = decimal.Parse(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -64,7 +54,6 @@ namespace ConnectedModeHW
                     command.Parameters.AddWithValue("@sellerId", sellerId);
                     command.Parameters.AddWithValue("@amount", amount);
                     command.Parameters.AddWithValue("@saleDate", DateTime.Now);
-
                     command.ExecuteNonQuery();
                     Console.WriteLine("Продажу додано!");
                 }
@@ -73,9 +62,9 @@ namespace ConnectedModeHW
 
         static void ShowSalesByPeriod()
         {
-            Console.Write("Введіть початкову дату (yyyy-MM-dd): ");
+            Console.Write("Початкова дата (yyyy-MM-dd): ");
             DateTime startDate = DateTime.Parse(Console.ReadLine());
-            Console.Write("Введіть кінцеву дату (yyyy-MM-dd): ");
+            Console.Write("Кінцева дата (yyyy-MM-dd): ");
             DateTime endDate = DateTime.Parse(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -86,7 +75,6 @@ namespace ConnectedModeHW
                 {
                     command.Parameters.AddWithValue("@start", startDate);
                     command.Parameters.AddWithValue("@end", endDate);
-
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
                         while (reader.Read())
@@ -100,9 +88,9 @@ namespace ConnectedModeHW
 
         static void ShowLastPurchase()
         {
-            Console.Write("Введіть ім'я покупця: ");
+            Console.Write("Ім'я покупця: ");
             string firstName = Console.ReadLine();
-            Console.Write("Введіть прізвище покупця: ");
+            Console.Write("Прізвище покупця: ");
             string lastName = Console.ReadLine();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -117,16 +105,11 @@ namespace ConnectedModeHW
                 {
                     command.Parameters.AddWithValue("@firstName", firstName);
                     command.Parameters.AddWithValue("@lastName", lastName);
-
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
                         if (reader.Read())
                         {
                             Console.WriteLine($"Остання покупка - ID: {reader["Id"]}, Сума: {reader["Amount"]}, Дата: {reader["SaleDate"]}");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Покупок не знайдено.");
                         }
                     }
                 }
@@ -135,9 +118,9 @@ namespace ConnectedModeHW
 
         static void DeletePerson()
         {
-            Console.WriteLine("Кого видалити? 1 - Покупця, 2 - Продавця: ");
+            Console.WriteLine("1 - Покупця, 2 - Продавця: ");
             string type = Console.ReadLine();
-            Console.Write("Введіть ID: ");
+            Console.Write("ID: ");
             int id = int.Parse(Console.ReadLine());
 
             string table = type == "1" ? "Buyers" : "Sellers";
@@ -149,8 +132,8 @@ namespace ConnectedModeHW
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@id", id);
-                    int rows = command.ExecuteNonQuery();
-                    Console.WriteLine($"Видалено записів: {rows}");
+                    command.ExecuteNonQuery();
+                    Console.WriteLine("Видалено!");
                 }
             }
         }
@@ -171,7 +154,7 @@ namespace ConnectedModeHW
                     {
                         if (reader.Read())
                         {
-                            Console.WriteLine($"Топ продавець: {reader["FirstName"]} {reader["LastName"]}, Загальна сума: {reader["TotalSum"]}");
+                            Console.WriteLine($"Топ продавець: {reader["FirstName"]} {reader["LastName"]}, Сума: {reader["TotalSum"]}");
                         }
                     }
                 }

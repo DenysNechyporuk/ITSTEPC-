@@ -6,7 +6,7 @@ namespace DataAnnotationHW
     {
         static void Main(string[] args)
         {
-            using (ShopDbContext db = new ShopDbContext())
+            using (ShopDb db = new ShopDb())
             {
                 db.Database.EnsureCreated();
                 Console.WriteLine("Базу даних магазину створено!");

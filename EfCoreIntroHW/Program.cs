@@ -6,10 +6,10 @@ namespace EfCoreIntroHW
     {
         static void Main(string[] args)
         {
-            using (AirlineDbContext db = new AirlineDbContext())
+            using (AirlineDb context = new AirlineDb())
             {
-                db.Database.EnsureCreated();
-                Console.WriteLine("Базу даних авіакомпанії створено успішно!");
+                context.Database.EnsureCreated();
+                Console.WriteLine("Базу даних авіакомпанії створено!");
             }
         }
     }

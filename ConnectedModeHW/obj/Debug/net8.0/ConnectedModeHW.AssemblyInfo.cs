@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConnectedModeHW")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4f67b550523096fccf77822dd1779866fd08012")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+400622739e7acec4100f381b26fc5a2f34fb5a3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConnectedModeHW")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConnectedModeHW")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

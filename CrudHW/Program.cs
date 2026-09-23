@@ -37,23 +37,21 @@ namespace CrudHW
                         Console.WriteLine("Книгу додано!");
                         break;
                     case "2":
-                        Console.WriteLine($"Кількість відвідувачів: {service.GetVisitorsCount()}");
+                        Console.WriteLine($"Кількість: {service.GetVisitorsCount()}");
                         break;
                     case "3":
                         service.PrintDebtors();
                         break;
                     case "4":
                         Console.Write("Назва книги: ");
-                        string bookTitle = Console.ReadLine();
-                        service.PrintBookAuthors(bookTitle);
+                        service.PrintBookAuthors(Console.ReadLine());
                         break;
                     case "5":
                         service.PrintAvailableBooks();
                         break;
                     case "6":
-                        Console.Write("ID відвідувача: ");
-                        int vId = int.Parse(Console.ReadLine());
-                        service.PrintUserBooks(vId);
+                        Console.Write("ID користувача: ");
+                        service.PrintUserBooks(int.Parse(Console.ReadLine()));
                         break;
                     case "7":
                         service.ClearDebts();
