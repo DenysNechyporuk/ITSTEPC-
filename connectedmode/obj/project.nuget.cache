@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "OEg4B+rd2WU=",
+  "success": true,
+  "projectFilePath": "F:\\ITSTEP\\C#\\ITSTEP\\connectedmode\\connectedmode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nechi\\.nuget\\packages\\system.configuration.configurationmanager\\10.0.12\\system.configuration.configurationmanager.10.0.12.nupkg.sha512",
+    "C:\\Users\\nechi\\.nuget\\packages\\system.diagnostics.eventlog\\10.0.12\\system.diagnostics.eventlog.10.0.12.nupkg.sha512",
+    "C:\\Users\\nechi\\.nuget\\packages\\system.security.cryptography.protecteddata\\10.0.12\\system.security.cryptography.protecteddata.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
