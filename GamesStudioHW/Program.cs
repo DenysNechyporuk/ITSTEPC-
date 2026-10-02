@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
+using System.Text;
 
 namespace GamesStudioHW
 {
@@ -8,6 +9,9 @@ namespace GamesStudioHW
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = Encoding.UTF8;
+
             using (GamesDb db = new GamesDb())
             {
                 db.Database.EnsureCreated();

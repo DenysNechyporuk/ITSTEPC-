@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
+using System.Text;
 
 namespace OlympicsHW
 {
@@ -8,6 +9,9 @@ namespace OlympicsHW
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = Encoding.UTF8;
+
             using (OlympicsDb db = new OlympicsDb())
             {
                 db.Database.EnsureCreated();
@@ -17,7 +21,7 @@ namespace OlympicsHW
                 {
                     Console.WriteLine("\n===== ДОДАТОК «ОЛІМПІАДА» =====");
                     Console.WriteLine("1. Таблиця медального заліку за країнами");
-                    Console.WriteLine("2. Медалісти з видів спорту");
+                    Console.WriteLine("2. Медалісті з видів спорту");
                     Console.WriteLine("3. Країна з найбільшою кількістю золотих медалей");
                     Console.WriteLine("4. Країна з найбільшою кількістю медалей у конкретному виді спорту");
                     Console.WriteLine("5. Спортсмен з найбільшою кількістю золотих медалей");
