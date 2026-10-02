@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OlympicsHW
+namespace OlympicsHW.Data
 {
     public class OlympicsDb : DbContext
     {
@@ -12,16 +12,22 @@ namespace OlympicsHW
         {
         }
 
+        public OlympicsDb(DbContextOptions<OlympicsDb> options) : base(options)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"
-                            Data Source = (localdb)\MSSQLLocalDB;
-                            Initial Catalog = Olympics_Db;
-                            Integrated Security = True;
-                            Connect Timeout = 5;
-                            TrustServerCertificate = True;
-                            ");
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(@"
+                                Data Source = (localdb)\MSSQLLocalDB;
+                                Initial Catalog = Olympics_Db;
+                                Integrated Security = True;
+                                Connect Timeout = 5;
+                                TrustServerCertificate = True;
+                                ");
+            }
         }
 
         public virtual DbSet<OlympicsGame> OlympicsGames { get; set; }

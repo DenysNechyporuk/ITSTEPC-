@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using OlympicsHW.Data;
 using System;
 using System.Linq;
 using System.Text;
@@ -19,7 +20,8 @@ namespace OlympicsHW
 
                 while (true)
                 {
-                    Console.WriteLine("\n===== ДОДАТОК «ОЛІМПІАДА» =====");
+                    Console.WriteLine("\n=================== ДОДАТОК «ОЛІМПІАДА» ===================");
+                    Console.WriteLine("--- СТАТИСТИКА ТА АНАЛІТИКА ---");
                     Console.WriteLine("1. Таблиця медального заліку за країнами");
                     Console.WriteLine("2. Медалісти з видів спорту");
                     Console.WriteLine("3. Країна з найбільшою кількістю золотих медалей");
@@ -27,8 +29,13 @@ namespace OlympicsHW
                     Console.WriteLine("5. Спортсмен з найбільшою кількістю золотих медалей");
                     Console.WriteLine("6. Країна, яка найчастіше приймала Олімпіаду");
                     Console.WriteLine("7. Склад олімпіадної команди країни");
-                    Console.WriteLine("8. Статистика виступу країни");
-                    Console.WriteLine("9. Додати нового спортсмена");
+                    Console.WriteLine("8. Статистика виступу конкретної країни");
+                    Console.WriteLine("\n--- УПРАВЛІННЯ ТА ПРОВЕДЕННЯ ОЛІМПІАД ---");
+                    Console.WriteLine("9. Провести змагання (Записати медальний результат)");
+                    Console.WriteLine("10. Додати нову Олімпіаду");
+                    Console.WriteLine("11. Редагувати / Видалити Олімпіаду");
+                    Console.WriteLine("12. Управління спортсменами (Додати / Редагувати / Видалити)");
+                    Console.WriteLine("13. Управління видами спорту (Додати / Редагувати / Видалити)");
                     Console.WriteLine("0. Вихід");
                     Console.Write("Оберіть пункт: ");
 
@@ -45,7 +52,11 @@ namespace OlympicsHW
                         case "6": ShowMostFrequentHost(db); break;
                         case "7": ShowCountryTeam(db); break;
                         case "8": ShowCountryStats(db); break;
-                        case "9": AddAthlete(db); break;
+                        case "9": RecordMedal(db); break;
+                        case "10": AddOlympics(db); break;
+                        case "11": ManageOlympics(db); break;
+                        case "12": ManageAthletes(db); break;
+                        case "13": ManageSports(db); break;
                     }
                 }
             }
@@ -67,10 +78,10 @@ namespace OlympicsHW
                 db.Sports.AddRange(s1, s2, s3);
                 db.SaveChanges();
 
-                var a1 = new Athlete { FullName = "Олександр Желтяков", Country = "Україна", BirthDate = new DateTime(2005, 11, 15), PhotoUrl = "photo1.jpg", SportId = s1.Id };
-                var a2 = new Athlete { FullName = "Ярослава Магучіх", Country = "Україна", BirthDate = new DateTime(2001, 9, 19), PhotoUrl = "photo2.jpg", SportId = s2.Id };
-                var a3 = new Athlete { FullName = "Кетлеб Дрессел", Country = "США", BirthDate = new DateTime(1996, 8, 16), PhotoUrl = "photo3.jpg", SportId = s1.Id };
-                var a4 = new Athlete { FullName = "Олег Верняєв", Country = "Україна", BirthDate = new DateTime(1993, 9, 29), PhotoUrl = "photo4.jpg", SportId = s3.Id };
+                var a1 = new Athlete { FullName = "Олександр Желтяков", Country = "Україна", BirthDate = new DateTime(2005, 11, 15), PhotoUrl = "zheltyakov.jpg", SportId = s1.Id };
+                var a2 = new Athlete { FullName = "Ярослава Магучіх", Country = "Україна", BirthDate = new DateTime(2001, 9, 19), PhotoUrl = "mahuchikh.jpg", SportId = s2.Id };
+                var a3 = new Athlete { FullName = "Кетлеб Дрессел", Country = "США", BirthDate = new DateTime(1996, 8, 16), PhotoUrl = "dressel.jpg", SportId = s1.Id };
+                var a4 = new Athlete { FullName = "Олег Верняєв", Country = "Україна", BirthDate = new DateTime(1993, 9, 29), PhotoUrl = "verniaiev.jpg", SportId = s3.Id };
                 db.Athletes.AddRange(a1, a2, a3, a4);
                 db.SaveChanges();
 
@@ -246,33 +257,146 @@ namespace OlympicsHW
             Console.WriteLine($"Золото: {medals.Count(m => m.MedalType == "Gold")}, Срібло: {medals.Count(m => m.MedalType == "Silver")}, Бронза: {medals.Count(m => m.MedalType == "Bronze")}");
         }
 
-        static void AddAthlete(OlympicsDb db)
+        static void RecordMedal(OlympicsDb db)
         {
-            Console.Write("ПІБ спортсмена: ");
-            string name = Console.ReadLine().Trim();
-            Console.Write("Країна: ");
-            string country = Console.ReadLine().Trim();
+            Console.WriteLine("\n--- ПРОВЕДЕННЯ ЗМАГАННЯ / ЗАПИС МЕДАЛІ ---");
+            var games = db.OlympicsGames.ToList();
+            foreach (var g in games) Console.WriteLine($"ID: {g.Id} | Рік: {g.Year} | Місто: {g.HostCity}");
+            Console.Write("Оберіть ID Олімпіади: ");
+            int gId = int.Parse(Console.ReadLine());
 
-            var sport = db.Sports.FirstOrDefault();
-            if (sport == null)
+            var athletes = db.Athletes.Include(a => a.Sport).ToList();
+            foreach (var a in athletes) Console.WriteLine($"ID: {a.Id} | {a.FullName} ({a.Country}) - {a.Sport?.Name}");
+            Console.Write("Оберіть ID Спортсмена: ");
+            int aId = int.Parse(Console.ReadLine());
+
+            var athlete = db.Athletes.FirstOrDefault(x => x.Id == aId);
+            if (athlete == null) return;
+
+            Console.Write("Введіть тип медалі (Gold / Silver / Bronze): ");
+            string medalType = Console.ReadLine().Trim();
+
+            db.MedalResults.Add(new MedalResult
             {
-                sport = new Sport { Name = "Загальний спорт" };
-                db.Sports.Add(sport);
-                db.SaveChanges();
-            }
-
-            Athlete athlete = new Athlete
-            {
-                FullName = name,
-                Country = country,
-                BirthDate = DateTime.Now.AddYears(-20),
-                PhotoUrl = "photo.jpg",
-                SportId = sport.Id
-            };
-
-            db.Athletes.Add(athlete);
+                OlympicsGameId = gId,
+                AthleteId = aId,
+                SportId = athlete.SportId,
+                MedalType = medalType
+            });
             db.SaveChanges();
-            Console.WriteLine("Спортсмена додано!");
+            Console.WriteLine("Результат змагання записано!");
+        }
+
+        static void AddOlympics(OlympicsDb db)
+        {
+            Console.Write("Рік проведення: ");
+            int year = int.Parse(Console.ReadLine());
+            Console.Write("Літня (1 - Так, 0 - Ні): ");
+            bool isSummer = Console.ReadLine() == "1";
+            Console.Write("Країна-господар: ");
+            string country = Console.ReadLine().Trim();
+            Console.Write("Місто-господар: ");
+            string city = Console.ReadLine().Trim();
+
+            db.OlympicsGames.Add(new OlympicsGame { Year = year, IsSummer = isSummer, HostCountry = country, HostCity = city });
+            db.SaveChanges();
+            Console.WriteLine("Олімпіаду додано!");
+        }
+
+        static void ManageOlympics(OlympicsDb db)
+        {
+            var list = db.OlympicsGames.ToList();
+            foreach (var g in list) Console.WriteLine($"ID: {g.Id} | {g.Year} - {g.HostCity} ({g.HostCountry})");
+
+            Console.Write("Оберіть ID для зміни/видалення: ");
+            int id = int.Parse(Console.ReadLine());
+            var item = db.OlympicsGames.FirstOrDefault(x => x.Id == id);
+            if (item == null) return;
+
+            Console.Write("1 - Редагувати, 2 - Видалити: ");
+            string act = Console.ReadLine();
+            if (act == "2")
+            {
+                db.OlympicsGames.Remove(item);
+                db.SaveChanges();
+                Console.WriteLine("Видалено!");
+            }
+            else if (act == "1")
+            {
+                Console.Write("Нове місто господар: ");
+                item.HostCity = Console.ReadLine().Trim();
+                db.SaveChanges();
+                Console.WriteLine("Оновлено!");
+            }
+        }
+
+        static void ManageAthletes(OlympicsDb db)
+        {
+            var list = db.Athletes.Include(a => a.Sport).ToList();
+            foreach (var a in list) Console.WriteLine($"ID: {a.Id} | {a.FullName} ({a.Country}) - {a.Sport?.Name}");
+
+            Console.WriteLine("1 - Додати, 2 - Редагувати, 3 - Видалити");
+            string choice = Console.ReadLine();
+
+            if (choice == "1")
+            {
+                Console.Write("ПІБ: ");
+                string name = Console.ReadLine().Trim();
+                Console.Write("Країна: ");
+                string country = Console.ReadLine().Trim();
+
+                var sport = db.Sports.FirstOrDefault();
+                if (sport == null)
+                {
+                    sport = new Sport { Name = "Загальний спорт" };
+                    db.Sports.Add(sport);
+                    db.SaveChanges();
+                }
+
+                db.Athletes.Add(new Athlete { FullName = name, Country = country, BirthDate = DateTime.Now.AddYears(-20), PhotoUrl = "photo.jpg", SportId = sport.Id });
+                db.SaveChanges();
+                Console.WriteLine("Спортсмена додано!");
+            }
+            else if (choice == "3")
+            {
+                Console.Write("ID для видалення: ");
+                int id = int.Parse(Console.ReadLine());
+                var a = db.Athletes.FirstOrDefault(x => x.Id == id);
+                if (a != null)
+                {
+                    db.Athletes.Remove(a);
+                    db.SaveChanges();
+                    Console.WriteLine("Видалено!");
+                }
+            }
+        }
+
+        static void ManageSports(OlympicsDb db)
+        {
+            var list = db.Sports.ToList();
+            foreach (var s in list) Console.WriteLine($"ID: {s.Id} | {s.Name}");
+
+            Console.WriteLine("1 - Додати, 2 - Видалити");
+            string choice = Console.ReadLine();
+            if (choice == "1")
+            {
+                Console.Write("Назва виду спорту: ");
+                db.Sports.Add(new Sport { Name = Console.ReadLine().Trim() });
+                db.SaveChanges();
+                Console.WriteLine("Вид спорту додано!");
+            }
+            else if (choice == "2")
+            {
+                Console.Write("ID для видалення: ");
+                int id = int.Parse(Console.ReadLine());
+                var s = db.Sports.FirstOrDefault(x => x.Id == id);
+                if (s != null)
+                {
+                    db.Sports.Remove(s);
+                    db.SaveChanges();
+                    Console.WriteLine("Видалено!");
+                }
+            }
         }
     }
 }

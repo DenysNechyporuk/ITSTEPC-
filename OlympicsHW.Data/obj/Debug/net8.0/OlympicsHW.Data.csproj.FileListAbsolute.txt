@@ -1,0 +1,15 @@
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\bin\Debug\net8.0\OlympicsHW.Data.deps.json
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\bin\Debug\net8.0\OlympicsHW.Data.runtimeconfig.json
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\bin\Debug\net8.0\OlympicsHW.Data.dll
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\bin\Debug\net8.0\OlympicsHW.Data.pdb
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\OlympicsHW.Data.csproj.AssemblyReference.cache
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\OlympicsHW.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\OlympicsHW.Data.AssemblyInfoInputs.cache
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\OlympicsHW.Data.AssemblyInfo.cs
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\OlympicsHW.Data.csproj.CoreCompileInputs.cache
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\OlympicsHW.Data.sourcelink.json
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\OlympicsHW.Data.dll
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\refint\OlympicsHW.Data.dll
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\OlympicsHW.Data.pdb
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\OlympicsHW.Data.genruntimeconfig.cache
+F:\ITSTEP\C#\ITSTEP\OlympicsHW.Data\obj\Debug\net8.0\ref\OlympicsHW.Data.dll

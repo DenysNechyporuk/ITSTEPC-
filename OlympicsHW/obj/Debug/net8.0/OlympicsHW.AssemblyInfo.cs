@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OlympicsHW")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccc1765c9d327930d44d77dbc3e9e151bfe36861")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b4593e8dea42e73faf700e33c0b76073955f081")]
 [assembly: System.Reflection.AssemblyProductAttribute("OlympicsHW")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OlympicsHW")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
