@@ -19,7 +19,8 @@ namespace OlympicsHW
                             Data Source = (localdb)\MSSQLLocalDB;
                             Initial Catalog = Olympics_Db;
                             Integrated Security = True;
-                            Connect Timeout = 2;
+                            Connect Timeout = 5;
+                            TrustServerCertificate = True;
                             ");
         }
 
@@ -27,6 +28,29 @@ namespace OlympicsHW
         public virtual DbSet<Sport> Sports { get; set; }
         public virtual DbSet<Athlete> Athletes { get; set; }
         public virtual DbSet<MedalResult> MedalResults { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<MedalResult>()
+                .HasOne(m => m.Sport)
+                .WithMany(s => s.MedalResults)
+                .HasForeignKey(m => m.SportId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<MedalResult>()
+                .HasOne(m => m.Athlete)
+                .WithMany(a => a.MedalResults)
+                .HasForeignKey(m => m.AthleteId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<MedalResult>()
+                .HasOne(m => m.OlympicsGame)
+                .WithMany(o => o.MedalResults)
+                .HasForeignKey(m => m.OlympicsGameId)
+                .OnDelete(DeleteBehavior.Restrict);
+        }
     }
 
     [Table("OlympicsGames")]

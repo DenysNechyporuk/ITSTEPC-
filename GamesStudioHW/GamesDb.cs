@@ -18,7 +18,8 @@ namespace GamesStudioHW
                             Data Source = (localdb)\MSSQLLocalDB;
                             Initial Catalog = Games_Db;
                             Integrated Security = True;
-                            Connect Timeout = 2;
+                            Connect Timeout = 5;
+                            TrustServerCertificate = True;
                             ");
         }
 
@@ -26,6 +27,17 @@ namespace GamesStudioHW
         public virtual DbSet<City> Cities { get; set; }
         public virtual DbSet<Studio> Studios { get; set; }
         public virtual DbSet<Game> Games { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Studio>()
+                .HasOne(s => s.City)
+                .WithMany(c => c.BranchStudios)
+                .HasForeignKey(s => s.CityId)
+                .OnDelete(DeleteBehavior.Restrict);
+        }
     }
 
     [Table("Countries")]
